@@ -76,7 +76,7 @@ class Ui_search(object):
 "height: 30px;")
         self.pushButton.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/icons/search.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("icons/search.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton.setIcon(icon)
         self.pushButton.setObjectName("pushButton")
         self.horizontalLayout_3.addWidget(self.pushButton, 0, QtCore.Qt.AlignLeft)
@@ -1196,7 +1196,7 @@ class Ui_dashboard(object):
         self.cart_btn = QtWidgets.QPushButton(self.cart_frame)
         self.cart_btn.clicked.connect(self.cart_runner)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:/projects/FPAP/Icons/shopping-cart.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("Icons/shopping-cart.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.cart_btn.setIcon(icon)
         self.cart_btn.setObjectName("cart_btn")
         self.horizontalLayout_12.addWidget(self.cart_btn)
@@ -1212,7 +1212,7 @@ class Ui_dashboard(object):
         self.search_btn = QtWidgets.QPushButton(self.search_frame)
         self.search_btn.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("D:/projects/FPAP/Icons/search.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("icons/search.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.search_btn.setIcon(icon1)
         self.search_btn.setObjectName("search_btn")
         self.horizontalLayout_13.addWidget(self.search_btn)
@@ -1811,7 +1811,7 @@ class Ui_edit_page(object):
                 picture_path = self.picture_path_input.text().strip()
                 img = Image.open(picture_path)
             except :
-                picture_path =  "D:/projects/FPAP/profilepicture.png"
+                picture_path =  "profilepicture.png"
             checking = True
             numbers = "123456789"
             lowercase_words = "abcdefghigklmnopqrstuvwxyz"
