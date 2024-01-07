@@ -1,3 +1,4 @@
+
 # Restaurant Management System
 
 A comprehensive system for managing restaurant operations, built with Python, Qt, and PyQt5.
@@ -29,6 +30,27 @@ Analyze customer behavior
 
 Frontend: Qt, PyQt5
 Backend: Python
-Database: Postgresql
+Database: [Specify database used, if any]
+## Installation
 
+Clone this repository:
+Bash
+git clone https://github.com/[your-username]/[repository-name]
+Use code with caution. Learn more
+Install dependencies:
+Bash
+pip install -r requirements.txt
+Use code with caution. Learn more
+## Usage
 
+Run the main application file:
+Bash
+python main.py
+Use code with caution. Learn more
+Interact with the user interface to manage restaurant operations.
+## Contributing
+
+Fork the repository
+Create a branch for your changes
+Make your changes
+Submit a pull request
