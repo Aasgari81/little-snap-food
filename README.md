@@ -42,8 +42,9 @@ Install dependencies:
 ## Usage
 
 Run the main application file:
-Bash
+```bash
 python main.py
+```
 Use code with caution. Learn more
 Interact with the user interface to manage restaurant operations.
 ## Contributing
