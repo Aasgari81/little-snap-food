@@ -34,13 +34,11 @@ Database: [Specify database used, if any]
 ## Installation
 
 Clone this repository:
-Bash
+#Bash
 git clone https://github.com/Aasgari81/little-snap-food.git
-Use code with caution. Learn more
+Use code with caution. 
 Install dependencies:
-Bash
-pip install -r requirements.txt
-Use code with caution. Learn more
+
 ## Usage
 
 Run the main application file:
