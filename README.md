@@ -35,7 +35,7 @@ Database: [Specify database used, if any]
 
 Clone this repository:
 Bash
-git clone https://github.com/[your-username]/[repository-name]
+git clone https://github.com/Aasgari81/little-snap-food.git
 Use code with caution. Learn more
 Install dependencies:
 Bash
